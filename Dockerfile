@@ -7,6 +7,7 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV TZ=UTC
 
 RUN apt-get update
+RUN apt-get upgrade -y
 RUN apt-get install -y \
         apt-utils \
         vim \
