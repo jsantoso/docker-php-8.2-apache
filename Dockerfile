@@ -35,6 +35,7 @@ RUN apt-get install -y \
         lftp \
         poppler-utils \
         zip \
+        p7zip-full \
         pdftk \
         expect \
         mkisofs \
